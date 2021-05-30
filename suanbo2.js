@@ -89,7 +89,7 @@ var timer;
 var forFinal=0;
 //yes,no에서 count가 6이면 호출할 함수
  function final() {
- 	document.getElementById("img").src = "banner2.png";
+ 	document.getElementById("img").src = "banner2.PNG";
  	document.getElementById("all").style.display = "none";
  	document.getElementById("gif").style.display = "block";
  	document.getElementById("banner").style.backgroundColor="#ffffff";
@@ -100,7 +100,7 @@ var forFinal=0;
  	document.getElementById("a").style.backgroundColor="#ffffff"; 		
  	document.getElementById("all").style.display = "block";
  	document.getElementById("gif").style.display = "none";
- 	document.getElementById("img").src = "banner2.png";
+ 	document.getElementById("img").src = "banner2.PNG";
  	document.getElementById("banner").style.backgroundColor = "#83c8f2";
  	},3000)  // 5초후 go() 함수를 호출한다
 
